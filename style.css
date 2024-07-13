@@ -6,17 +6,33 @@
 }
 
 header {
-    background-color: aqua;
+    
 }
 
 nav {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+    margin-right: 32px;
+}
+
+nav ul li:hover{
+    background-color: rgb(166, 110, 255);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
 }
