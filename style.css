@@ -9,6 +9,10 @@ header {
     
 }
 
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 nav {
     width: 80%;
     margin: auto;
@@ -26,13 +30,26 @@ nav ul {
 nav ul li {
     padding: 10px;
     margin-right: 32px;
-}
-
-nav ul li:hover{
-    background-color: rgb(166, 110, 255);
+    border-radius: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #7d86fd;
+}
+
+.login-button button {
+    padding: 10px 40px;
+    background-color: white;
+    border: 2px solid #8B93FF;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #8B93FF;
+    font-weight: 600;
 }
