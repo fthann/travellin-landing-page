@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 * {
     margin: 0;
@@ -52,4 +52,51 @@ nav ul li a:hover {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #8B93FF;
     font-weight: 600;
+}
+
+.login-button button:hover {
+    background-color: #8B93FF;
+    color: white;
+}
+
+
+.home {
+    width: 80%;
+    margin: auto;
+}
+
+.home-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.home-container h1 {
+    font-size: 60px;
+}
+
+.home-container h1 span {
+    font-family: "Gochi Hand", cursive;
+}
+
+.home-container p {
+    margin-top: 20px;
+    line-height: 2;
+    color: #6e6e6e;
+}
+
+.home-container button {
+    padding: 12px 30px;
+    background-color: #8B93FF;
+    border: none;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.home-container button a {
+    color: white;
+    text-decoration: none;
 }
